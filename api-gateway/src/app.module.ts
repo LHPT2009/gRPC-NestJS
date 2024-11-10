@@ -13,7 +13,7 @@ import { join } from 'path';
         options: {
           package: 'users',
           protoPath: join(__dirname, 'protos/users.proto'),
-          url: 'localhost:50051',
+          url: 'users:50051',
         },
       },
     ]),
